@@ -289,6 +289,36 @@ nav a:hover{
     margin-bottom:40px;
 
 }
+.floating-video{
+    position: fixed;
+    bottom: 100px; /* above WhatsApp button */
+    right: 20px;
+
+    width: 360px;
+    height: 220px;
+
+    background: #000;
+    border-radius: 15px;
+    overflow: hidden;
+
+    z-index: 9999;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.35);
+}
+
+.video-header{
+    background: #e30613;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.floating-video iframe{
+    width: 100%;
+    height: calc(100% - 40px);
+    border: none;
+}
 
 
 /* HERO BUTTONS */
